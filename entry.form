@@ -1,0 +1,30 @@
+<h2> Coventry LETS Accounts Main Form</h2>
+<p>
+
+<form action="entry.cgi" method="post">  
+<p> Please enter your account number or identifier. *
+<INPUT TYPE="text" NAME="account" SIZE="25" MAXLENGTH="50">
+<p> Please enter your PIN number 
+<INPUT TYPE="text" NAME="PIN" SIZE="4" MAXLENGTH="4">
+<p>If you don't have a PIN number or have forgotten it, 
+your PIN will be sent to you if you enter the correct email address 
+registered for your account.
+<br> I don't know my PIN number. My email address is: 
+<INPUT TYPE="text" NAME="EMAIL" SIZE="30" MAXLENGTH="60"><p>
+Select an option:<br>
+<input TYPE="submit" NAME="statement" VALUE=" statement ">
+view your statement<br>
+<input TYPE="submit" NAME="balance" VALUE="  balance  ">
+balance enquiry form<br>
+<input TYPE="submit" NAME="active" VALUE="  active  ">
+view active accounts summary<br>
+<input TYPE="submit" NAME="all" VALUE="   all   ">
+view summary of all accounts<br>
+<input TYPE="submit" NAME="pin" VALUE="    PIN    ">
+send me my PIN<br>
+<input TYPE="submit" NAME="ack" VALUE="acknowledge ">
+acknowledgement input form (currently administrator only)<br>
+<input TYPE="submit" NAME="admin" VALUE="   admin   ">
+account administration form (administrator only)<br>
+</form>  
+

@@ -1,0 +1,28 @@
+<h2> Coventry LETS Account Administration Form</h2>
+<p>
+Input from this form is only accepted from the admin acccount.<p>
+<form action="admin.cgi" method="post">
+<INPUT TYPE="hidden" NAME="ac_id" VALUE="%s" >
+<INPUT TYPE="hidden" NAME="pin" VALUE="%s" >
+
+<p> Account number or identifier of user. *
+<INPUT TYPE="text" NAME="user_ac_id" SIZE="6" MAXLENGTH="8">
+<p> 
+The following details are required when a new account is added: <br>
+Enter email address to which PIN will be sent.<INPUT TYPE="text" NAME="email" 
+SIZE="30" MAXLENGTH="60"> <br> 
+Enter name.<INPUT TYPE="text" NAME="user_name" SIZE="30" MAXLENGTH="60"> <br> 
+Enter starting or carried forward balance.<INPUT TYPE="text" NAME="start_bal" 
+SIZE="6" MAXLENGTH="8"> <p>
+Select your option:<br>
+<input TYPE="submit" NAME="add" VALUE="add">add account (full details 
+are required)<br>
+<input TYPE="submit" NAME="modify" VALUE="modify">modify account (changed 
+details are required)<br>
+<input TYPE="submit" NAME="inactive" VALUE="inactive">make account inactive<br>
+<input TYPE="submit" NAME="active" VALUE="active">reactivate account <br>
+<input TYPE="submit" NAME="delete" VALUE="delete">delete account. (balance
+must be zero)<br>
+<input TYPE="submit" NAME="view" VALUE="view">view account details.<br>
+</form>  
+

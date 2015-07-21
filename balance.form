@@ -1,0 +1,9 @@
+<p> Use this form to request an account balance on your or another
+LETS account.<p>
+
+<form action="balance.cgi" method="post"> 
+<INPUT TYPE="hidden" NAME="ac_id" VALUE="%s" >
+<INPUT TYPE="hidden" NAME="pin" VALUE="%s" >
+Enter account number/identifier for which you require balance details.
+<INPUT TYPE="text" NAME="enquiry_id" SIZE="4" MAXLENGTH="8"> <p>
+<INPUT TYPE="submit" VALUE="Show Details">  </form>

@@ -1,0 +1,21 @@
+<h2> Acknowledgement stage 2 (confirmation) Form </h2>
+<p> Use this form to confirm a LETS payment.<p>
+Input from this form is currently only accepted from the admin account.<p>
+<form action="ack.cgi" method="post"> 
+<INPUT TYPE="hidden" NAME="ac_id" VALUE="%s" >
+<INPUT TYPE="hidden" NAME="pin" VALUE="%s" >
+Payee/seller name (i.e. the name of the person being paid) *
+<INPUT TYPE="text" NAME="to_name" VALUE="%s" SIZE="25" MAXLENGTH="40"><p>
+Payee/seller account number/identifier. *
+<INPUT TYPE="text" NAME="to_id" VALUE="%s" SIZE="4" MAXLENGTH="8"> <p>
+Payer/buyer name. *
+<INPUT TYPE="text" NAME="from_name" VALUE="%s" SIZE="25" MAXLENGTH="40"><p>
+Payer/buyer account number/identifier. * 
+<INPUT TYPE="text" NAME="from_id" VALUE="%s" SIZE="4" MAXLENGTH="8"> <p> 
+Amount of payment *
+<INPUT TYPE="text" NAME="amount" VALUE="%s" SIZE="8" MAXLENGTH="8"> <p>
+Payment identifying details e.g. invoice no. or type of goods/services. *
+<INPUT TYPE="text" NAME="details" VALUE="%s" SIZE="30" MAXLENGTH="40"><p>
+
+<INPUT TYPE="submit" VALUE="Record Payment">  </form>  
+
